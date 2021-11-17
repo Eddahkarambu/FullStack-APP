@@ -5,7 +5,7 @@ Eddah Karambu
 Todo App
 
 ### Description
-Todo App is an app that allows users to add, edit and delete tasks they want to work on, also mark taska as complete without deleting them.
+Todo App is an app that allows users to add, edit and delete tasks they want to work on, also marks tasks as complete without deleting them.
 
 
 ## setup/installation Requirements
@@ -17,7 +17,7 @@ You need to cd into api folder which is the back-end using the terminal and run 
 Afterwards cd into client and run npm start again to open the front-end 
 
 ## Technologies Used
-This  website uses CSS,HTML,React.js
+React.js,node.js,express
 
 ## Support and contact details
 Incase of any questions or facing any difficulties you can contact Eddah Karambu via email.
