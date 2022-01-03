@@ -66,10 +66,10 @@ function App() {
         {todos.map(todo=>(
              <div className={
                "todo " + (todo.complete ? "is-complete" : "")
-               }key={todo._id} onClick={() => completeTodo(todo._id)}>
+               }key={todo._id} >
                   <div className="checkbox"></div>
           
-                  <div className="text">{todo.text}</div>
+                  <div className="text"  onClick={() => completeTodo(todo._id)}>{todo.text}</div>
           
                   <div className="delete-todo" onClick={()=> deleteTodo (todo._id)}>X</div>
                 
